@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça seu Pedido - A.S Gourmet</title>
+    <style>
+        :root {
+            --bg-color: #0b0b0b;
+            --card-bg: #141414;
+            --pink-main: #e29fb0;
+            --pink-dark: #c58293;
+            --text-white: #ffffff;
+            --input-bg: #1c1c1c;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-white);
+            padding: 20px 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 500px;
+            width: 100%;
+            background: var(--card-bg);
+            border: 2px solid var(--pink-main);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0px 10px 25px rgba(226, 159, 176, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: 30px;
+            color: var(--pink-main);
+            font-family: 'Georgia', serif;
+            letter-spacing: 1px;
+            font-style: italic;
+        }
+
+        .subtitle {
+            font-size: 13px;
+            color: #aaa;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-top: 5px;
+        }
+
+        .section-title {
+            font-size: 16px;
+            color: var(--pink-main);
+            margin: 20px 0 10px 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+            text-align: left;
+        }
+
+        /* Lista de Produtos */
+        .produto-item {
+            background: #1a1a1a;
+            border: 1px solid #2d2d2d;
+            border-radius: 10px;
+            padding: 12px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: left;
+        }
+
+        .prod-info {
+            flex: 1;
+            padding-right: 10px;
+        }
+
+        .prod-nome {
+            font-size: 14px;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .
